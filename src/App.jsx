@@ -248,7 +248,7 @@ export default function App() {
                 onClick={() => setVisible((v) => !v)}
                 title={visible ? "Hide password" : "View password"}
               >
-                {visible ? "Hide" : "show"}
+                {visible ? "HIDE" : "VIEW"}
               </button>
             </div>
 
